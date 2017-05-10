@@ -1,2 +1,0 @@
-# samplejava
-sample java
