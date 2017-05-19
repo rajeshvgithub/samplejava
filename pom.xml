@@ -18,23 +18,5 @@
   </dependencies>
 
 
-<distributionManagement>
-  <repositories>  
- <repository>
-        <id>maven-central</id>
-        <url>http://repo1.maven.org/maven2</url>
-    </repository>
-<repository>
-        <id>central</id>
-        <name>inbasdpc09408-releases</name>
-        <url>http://localhost:8182/artifactory/rajeshjfrog</url>
-    </repository>
-    </repositories>  
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>inbasdpc09408-snapshots</name>
-        <url>http://localhost:8182/artifactory/rajeshjfrog</url>
-    </snapshotRepository>
-</distributionManagement>
 
 </project>
