@@ -7,7 +7,8 @@
   <version>1.0-SNAPSHOT</version>
     <name>samplejava</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+  
+<dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -16,15 +17,21 @@
     </dependency>
   </dependencies>
 
+  
+    
 
 <distributionManagement>
     <repository>
         <id>central</id>
         <name>inbasdpc09408-releases</name>
-        <url>http://localhost:8182/artifactory/libs-release-local</url>
+        <url>http://localhost:8182/artifactory/uprr</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>inbasdpc09408-snapshots</name>
+        <url>http://localhost:8182/artifactory/uprr</url>
+    </snapshotRepository>
 </distributionManagement>
-
 
 </project>
 
