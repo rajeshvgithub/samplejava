@@ -4,7 +4,7 @@
   <groupId>tech.mah</groupId>
   <artifactId>samplejava</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
     <name>samplejava</name>
   <url>http://maven.apache.org</url>
   
@@ -17,21 +17,18 @@
     </dependency>
   </dependencies>
 
-  
-    
 
 <distributionManagement>
     <repository>
         <id>central</id>
         <name>inbasdpc09408-releases</name>
-        <url>http://localhost:8182/artifactory/uprr</url>
+        <url>http://localhost:8182/artifactory/rajeshjfrog</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>inbasdpc09408-snapshots</name>
-        <url>http://localhost:8182/artifactory/uprr</url>
+        <url>http://localhost:8182/artifactory/rajeshjfrog</url>
     </snapshotRepository>
 </distributionManagement>
 
 </project>
-
