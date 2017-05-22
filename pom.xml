@@ -4,7 +4,7 @@
   <groupId>tech.mah</groupId>
   <artifactId>samplejava</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-ItsMyRELEASE</version>
     <name>samplejava</name>
   <url>http://maven.apache.org</url>
   
